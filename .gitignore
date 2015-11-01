@@ -1,0 +1,20 @@
+MarioKartWiiTrackPicker.Web/wwwroot/js/**/*.js
+MarioKartWiiTrackPicker.Web/wwwroot/css/**/*.css
+MarioKartWiiTrackPicker.Web/Properties/PublishProfiles
+/*/bin
+/*/obj
+/**/project.lock.json
+/*/wwwroot/bin
+/*/wwwroot/lib
+/*/wwwroot/dist
+/*/wwwroot/_references.js
+/*/node_modules
+/Visual Studio*
+/MetricResults*
+/**/.suo
+/**/*.user
+*.swp
+/Resharper*
+/packages/
+/**/service-worker.js
+/.vs
