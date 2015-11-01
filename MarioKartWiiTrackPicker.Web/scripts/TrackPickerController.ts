@@ -1,27 +1,6 @@
 ﻿module App {
     'use strict';
 
-    //todo:
-    //-rejection
-    // -pan
-    // -swipe
-    // -button (X)
-    // -"swipe to veto"
-    //   Hide on desktop
-    //
-    //
-    //-improve slide-in animation
-    // preload images
-    // -make it really from the top
-    //
-    //-cup titles
-    //
-    //offline library / why updates unreliable?
-    //
-    //appify button
-    //
-    //gulp best pratices
-
     export class TrackPickerController {
         private defaultRaceCount = 4;
         private raceAppearIntervalMs = 250;
