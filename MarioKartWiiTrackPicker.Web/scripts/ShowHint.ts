@@ -9,6 +9,7 @@
 
         private showHintDelayMs = 6000;
         private cookieKeyVeto = 'shown-hint-veto';
+        private showHintRequested: boolean;
 
         public restrict = 'A';
 
@@ -22,11 +23,15 @@
             } else {
                 element.click(this.hideHint);
             }
+            this.showHintRequested = false;
         }
 
         private showHintIfNotSeenBefore = () => {
-            var shownBefore = this.$cookies.getObject(this.cookieKeyVeto);
-            if (shownBefore) return;
+            if (this.showHintRequested) return;
+            this.showHintRequested = true;
+
+            var dismissedPreviously = this.$cookies.getObject(this.cookieKeyVeto);
+            if (dismissedPreviously) return;
 
             this.$interval(() => {
                 $('.hint').addClass('hint-show');

@@ -28,6 +28,10 @@ body {
 $hint-height: 80px;
 
 .hint {
+    @media(min-width:992px) {
+        display: none;
+    }
+
     position: fixed;
     z-index: 1000;
     bottom: -$hint-height;
