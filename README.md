@@ -30,6 +30,7 @@ Roadmap
 
 - [DONE] Complete UI
 - [DONE] Get dynamic image preloading to work on IIS Express.
+- Improve desktop cross-browser compatibility.
 - Get dynamic image preloading to work on Azure.
 - Enable seamless updates for the offline experience.
 - Figure out way to make the app aware of whether it's loaded from the homescreen, and add a custom "install to homescreen" button.
