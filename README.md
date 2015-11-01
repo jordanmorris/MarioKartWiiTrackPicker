@@ -16,7 +16,7 @@ Why
 Apart from the obvious need to solve this horrendous first-world problem, I also wanted to try out some new tech.
 
 - Google [Homescreen-installed apps](https://developer.chrome.com/multidevice/android/installtohomescreen).  
-  If you visit the app a couple of times with Chrome for Android, the browser will suggest you install it to your homescreen. Once you have done so, it will work offline and look and feel like a real app. This ability is granted by the user of https, a service worker, mobile-friendly design and the inclusion of manifest.json. You can fast-track the process by accessing "Add to Homescreen" in the chrome menu.
+  If you visit the app a couple of times with Chrome for Android, the browser will suggest you install it to your homescreen. Once you have done so, it will work offline and look and feel like a real app. This ability is granted by the use of https, a service worker, a mobile-friendly design and the inclusion of manifest.json. You can fast-track the process by accessing "Add to Homescreen" in the chrome menu.
 
 - [ASP.Net vNext / MVC 6](http://www.asp.net/vnext).  
   Microsoft has opened their web development platform right up, and I have been suitably impressed by how easy Visual Studio 2015 makes it to use open-source web tech.
