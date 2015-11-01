@@ -18,9 +18,10 @@ namespace MarioKartWiiTrackPicker.Web.Controllers
 
         public IActionResult Index()
         {
-            //var imagesSources = GetPreCacheImageSources();
-            //return View(imagesSources);
-            return View(new string[] {});
+            // Todo: fix dynamic image preloading on azure
+            // var imagesSources = GetPreloadImageSourcePaths();
+            // return View(imagesSources);
+            return View(PreloadImages.ImageSourcePaths);
         }
 
         public IActionResult Error()
@@ -28,7 +29,7 @@ namespace MarioKartWiiTrackPicker.Web.Controllers
             return View("~/Views/Shared/Error.cshtml");
         }
 
-        private IEnumerable<string> GetPreCacheImageSources()
+        private IEnumerable<string> GetPreloadImageSourcePaths()
         {
             var wwwrootFolderPath = Path.Combine(_appEnvironment.ApplicationBasePath, "wwwroot");
             var imagesFolderPath = Path.Combine(wwwrootFolderPath, "images");

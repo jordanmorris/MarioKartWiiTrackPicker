@@ -7,10 +7,11 @@
     // -swipe
     // -button (X)
     // -"swipe to veto"
+    //   Hide on desktop
     //
     //
     //-improve slide-in animation
-    // -preload images
+    // preload images
     // -make it really from the top
     //
     //-cup titles
