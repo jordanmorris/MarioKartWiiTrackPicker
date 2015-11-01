@@ -7,7 +7,7 @@ This handy little responsive app fills that gap, complete with the ability to ve
 
 [Try it](https://mkart.azurewebsites.net/)
 
-![Mario Kart Wii Random Track Picker screenshot](screenshot.png)
+![Mario Kart Wii Random Track Picker screenshot](https://jordanmorris.github.io/MarioKartWiiTrackPicker/screenshot.png)
 
 
 Why
